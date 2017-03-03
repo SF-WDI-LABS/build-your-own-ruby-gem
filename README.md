@@ -108,7 +108,7 @@ Now execute your code using the command: `ruby path/to/barkingmad.rb`. You shoul
 
 (STOP and COMMIT)
 
-**BUT WAIT!** How will other developers know that my code depends on the Ffaker gem, specifically version 2.5? We need a `Gemfile`!
+**BUT WAIT!** How will other developers know that my code depends on the ffaker gem, specifically version 2.5? We need a `Gemfile`!
 
 To generate a `Gemfile`, from the root of your project directory run the following command:
 
@@ -125,7 +125,7 @@ barkingmad/           // <-- project folder
 └── ...
 ```
 
-Open `Gemfile` in your editor and add `Ffaker` as a dependency:
+Open `Gemfile` in your editor and add `ffaker` as a dependency:
 
 ```
 source "https://rubygems.org"
