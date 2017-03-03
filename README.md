@@ -1,5 +1,7 @@
 # Build Your Own Ruby Gem
 
+<img src="https://media.giphy.com/media/Pfk07Wol1AeD6/giphy.gif" width="200px">
+
 In this lab we will be exploring the ruby CLI and the concept of a ruby "library" or "gem".
 
 > This tutorial assumes you have [ruby, gem, and bundler installed](https://github.com/SF-WDI-LABS/installfest/blob/master/environment-setup/ruby-on-rails-stack.md) on your computer.
@@ -228,6 +230,19 @@ $ irb
  => "potato!"
 ```
 
+
+**Keep in Mind**: You can still use the `ruby path/to/barkingmad.rb` command.And the old way of "loading" ruby code into your REPL stills works as well.
+
+```
+$ irb
+2.2.5 :001 > load "path/to/barkingmad.rb"
+=> BarkingMad
+```
+
+
+But if you want to be able to type just `require "barkingmad"` *you will need to re-`build` and re-`install` your gem __every time__* you make a change to it.
+
+> **Watch Out**: the command `load` is very different from `require`!
 
 ## Exercise - [solution](solution)
 
