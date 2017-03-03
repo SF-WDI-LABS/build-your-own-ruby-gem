@@ -3,6 +3,8 @@
 A very simple ruby gem.
 
 #### Setup
+> Make sure you are inside the `solution` directory!!!
+
 To get up and running you will need to build and install the `barkingmad` gem:
 
 ```bash
@@ -16,6 +18,8 @@ $ gem install ./barkingmad-0.0.0.gem # <-- mind the dot!
 # Successfully installed barkingmad-0.0.0
 # 1 gem installed
 ```
+
+> ^^^ Make sure you are inside the `solution` directory!!! ^^^
 
 You should then be able to import/require it in your ruby REPL:
 
