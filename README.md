@@ -47,7 +47,7 @@ The core ruby library has a lot of cool features, but it doesn't do everything. 
 
 > Jargon Note: The words "Gem" and "Library" are used interchangably.
 
-For example the gem [Ffaker](https://rubygems.org/gems/ffaker) has a bunch of convenience methods that make generating fake data easier.
+For example the gem [ffaker](https://rubygems.org/gems/ffaker) has a bunch of convenience methods that make generating fake data easier.
 
 Using the ffaker [`FFaker::Name.first_name`](https://github.com/ffaker/ffaker/blob/master/REFERENCE.md#ffakername) method we can generate a random first name like `"Melinda"` or `"Gary"`.
 
