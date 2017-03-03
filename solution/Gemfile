@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+# gem "ffaker"
+
+# Specify your gem's dependencies in potato.gemspec
+gemspec
