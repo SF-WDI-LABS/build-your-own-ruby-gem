@@ -63,7 +63,7 @@ Then, we can require/import the ffaker library into our ruby REPL (`irb`, `pry`)
 2.2.5 :001 > FFaker                         # Uh Oh! We haven't required it yet!
 NameError: uninitialized constant FFaker    # k, thx!
 2.2.5 :002 > require "ffaker"
- => FFaker                                  # nice! It worked!
+ => true                                    # nice! It worked!
 2.2.5 :003 > FFaker::Name.first_name
  => "Gary"
 2.2.5 :004 > FFaker::Name.first_name
@@ -225,18 +225,18 @@ Now we can jump into our ruby REPL and give it a shot:
 ```
 $ irb
 2.2.5 :001 > require "barkingmad"
- => BarkingMad
+ => true
 2.2.5 :002 > BarkingMad.potato
  => "potato!"
 ```
 
 
-**Keep in Mind**: You can still use the `ruby path/to/barkingmad.rb` command.And the old way of "loading" ruby code into your REPL stills works as well.
+**Keep in Mind**: You can still use the `ruby path/to/barkingmad.rb` command. And the old way of "loading" ruby code into your REPL stills works as well.
 
 ```
 $ irb
 2.2.5 :001 > load "path/to/barkingmad.rb"
-=> BarkingMad
+=> true
 ```
 
 
@@ -250,7 +250,7 @@ Can you extend `BarkingMad` to work in the following way:
 
 ```
 2.2.5 :001 > require "barkingmad"
- => BarkingMad
+ => true
 2.2.5 :002 > human1 = BarkingMad.random_new_human
 2.2.5 :003 > human1.country
  => "Albania"
