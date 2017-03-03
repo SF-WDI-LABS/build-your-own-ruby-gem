@@ -229,7 +229,7 @@ $ irb
 ```
 
 
-#### Exercise
+## Exercise - [solution](solution)
 
 Can you extend `BarkingMad` to work in the following way:
 
