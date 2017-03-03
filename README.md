@@ -34,9 +34,9 @@ $ irb
 2.2.5 :002">                     # Uh oh! You left a quote open. Hit ctrl+c to start over!
 2.2.5 :003 >
 2.2.5 :004 > def good
-2.2.5 :005?>    "yay"            # note the `?`
-2.2.5 :006?> end                 # note the `?``
- => :good                        # nice! You made the `good` method!
+2.2.5 :005?>    "yay"            # <-- note the `?`
+2.2.5 :006?> end                 # <-- note the `?`
+ => :good                        #     Nice! It worked.
 2.2.5 :007 > good
  => "yay"
 2.2.5 :008 > exit
