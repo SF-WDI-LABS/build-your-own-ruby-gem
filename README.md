@@ -9,7 +9,7 @@ In this lab we will be exploring the ruby CLI and the concept of a ruby "library
 
 From the command line, type `irb` (or `pry`). This will launch the ruby REPL. Type `exit` to quit.
 
-```bash
+```
 $ irb
 
 2.2.5 :001> 1 + 1
@@ -25,7 +25,7 @@ The keyboard shortcut `ctrl+c` is your friend! Ruby will *only* evaluate syntact
 - Hit `ctrl+c` to start over if the mistake in on the line above.
 - If your current code is correct, keep typing and complete your thought.
 
-```bash
+```
 $ irb
 
 2.2.5 :001 > vegetable = "potato
