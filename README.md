@@ -12,11 +12,11 @@ From the command line, type `irb` (or `pry`). This will launch the ruby REPL. Ty
 ```bash
 $ irb
 
-2.2.5 :001> 1 + 1;
+2.2.5 :001> 1 + 1
  => 2 
-2.2.5 :001> "hello" + "world";
+2.2.5 :002> "hello" + "world"
  => "helloworld"
-2.2.5 :001> exit
+2.2.5 :003> exit
 ```
 
 > Note that `2.2.5` indicates the ruby version. `001` means we're on line #1 of this REPL session.
@@ -162,7 +162,7 @@ How cool would it be if our `barkingmad` project were an actual gem that we coul
 # ** MAGICAL WORLD IN WHICH THIS WORKS **
 2.2.5 :001 > require "barkingmad"
  => BarkingMad
-2.2.5 :001 > BarkingMad.potato
+2.2.5 :002 > BarkingMad.potato
  => "potato!"
  # ** MAGICAL WORLD IN WHICH THIS WORKS **
 ```
@@ -224,7 +224,7 @@ Now we can jump into our ruby REPL and give it a shot:
 $ irb
 2.2.5 :001 > require "barkingmad"
  => BarkingMad
-2.2.5 :001 > BarkingMad.potato
+2.2.5 :002 > BarkingMad.potato
  => "potato!"
 ```
 
